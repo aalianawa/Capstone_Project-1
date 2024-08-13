@@ -1,0 +1,349 @@
+/* Reset default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    background-color: #fff;
+}
+
+/* Header Style */
+header {
+    background-color: #fff;
+    width: 100%;
+    height: 96px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    margin-left: 120px !important;
+    margin-right: 80px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo a {
+    color: #495567;
+    font-size: 24px;
+    font-weight: 700;
+    font-family: 'Space Mono';
+    text-decoration: none;
+}
+
+.nav_links {
+    display: flex;
+    list-style: none;
+}
+
+.nav_links li {
+    margin-left: 15px;
+}
+
+.nav_links li a {
+    text-decoration: none;
+    color: #939CAA;
+    font-size: 15px;
+    font-weight: 700;
+    font-family: 'Space Mono';
+}
+
+.nav-btn button {
+    width: 150px;
+    padding: 10px;
+    border: none;
+    background: #FCB72B;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 700;
+    font-family: 'Space Mono';
+    cursor: pointer;
+}
+
+.nav-btn button:hover {
+    color: #FCB72B;
+    background: none;
+    border: 2px solid #FCB72B;
+}
+
+/* Hero Section Style */
+.hero {
+    background-image: url('../Assets/Bitmap.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.hero-tittle {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 105px;
+}
+
+.hero-tittle h1 {
+    font-size: 59px;
+    font-weight: 700;
+    font-family: 'Space Mono';
+    line-height: 56px;
+    letter-spacing: 1.25px;
+    color: #fff;
+}
+
+.hero-tittle img {
+    width: 140px;
+    position: absolute;
+    margin-top: 60px;
+}
+
+.hero-tittle p {
+    margin-top: 20px;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Lexend Deca';
+    line-height: 25px;
+    color: #fff;
+}
+
+.hero_btn {
+    width: 150px;
+    padding: 10px;
+    border: none;
+    background: #FCB72B;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 700;
+    font-family: 'Space Mono';
+    margin-top: 22px;
+    cursor: pointer;
+}
+
+.hero_btn:hover {
+    color: #FCB72B;
+    background: none;
+    border: 2px solid #FCB72B;
+}
+
+.hero-img img {
+    width: 400px;
+    margin-top: 150px;
+}
+
+/* Cards Style */
+.Cards-section {
+    display: flex;
+    justify-content: space-around;
+    padding: 30px 20px;
+    margin-left: 120px !important;
+    margin-right: 80px;
+}
+
+/* .Cards-detail {
+    text-align: center;
+} */
+
+.card-img img {
+    width: 50px;
+}
+
+.card-text h2 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #495567;
+    font-family: 'Space Mono';
+    margin-top: 15px;
+}
+
+.card-text p {
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Lexend Deca';
+    line-height: 25px;
+    color: #939CAA;
+    margin-top: 10px;
+}
+
+/* About-Apps Style */
+.About-Apps {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 20px;
+}
+
+.App-detail h2 {
+    font-size: 48px;
+    font-weight: 700;
+    font-family: 'Space Mono';
+    color: #495567;
+    letter-spacing: -2.14px;
+}
+
+.App-detail p {
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Lexend Deca';
+    line-height: 25px;
+    color: #939CAA;
+    padding-top: 10px;
+}
+
+.App-detail button {
+    width: 150px;
+    padding: 10px;
+    border: none;
+    background: #FCB72B;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 700;
+    font-family: 'Space Mono';
+    margin-top: 22px;
+    cursor: pointer;
+}
+
+.App-detail button:hover {
+    color: #FCB72B;
+    background: none;
+    border: 2px solid #FCB72B;
+}
+
+/* Bitmap Style */
+.Bitmap {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 20px;
+}
+
+.Bitmap-detail h2 {
+    font-size: 48px;
+    font-weight: 700;
+    font-family: 'Space Mono';
+    color: #495567;
+    letter-spacing: -2.14px;
+}
+
+.Bitmap-detail p {
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Lexend Deca';
+    line-height: 25px;
+    color: #939CAA;
+    padding-top: 10px;
+}
+
+.Bitmap-detail button {
+    width: 150px;
+    padding: 10px;
+    border: none;
+    background: #FCB72B;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 700;
+    font-family: 'Space Mono';
+    margin-top: 22px;
+    cursor: pointer;
+}
+
+.Bitmap-detail button:hover {
+    color: #FCB72B;
+    background: none;
+    border: 2px solid #FCB72B;
+}
+
+.Bitmap-img img {
+    border-radius: 50%;
+}
+
+/* Footer Style */
+.footer {
+    width: 100%;
+    background-image: url('../Assets/Mask.svg');
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 20px;
+}
+
+.footer-text h2 {
+    font-size: 48px;
+    font-weight: 700;
+    font-family: 'Space Mono';
+    color: #fff;
+    letter-spacing: -2.14px;
+}
+
+.footer-buttons {
+    display: flex;
+}
+
+.footer-buttons button {
+    background: #E5ECF4;
+    width: 150px;
+    padding: 8px;
+    margin-left: 10px;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.footer-buttons button span {
+    font-size: 10px;
+    font-weight: 700;
+    font-family: 'Space Mono';
+    color: #495567;
+}
+
+.footer-buttons button h2 {
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Space Mono';
+    color: #495567;
+    line-height: 24px;
+    letter-spacing: -0.89px;
+}
+
+/* Footer Navigation */
+footer {
+    background-color: #333A44;
+    width: 100%;
+    height: 105px;
+}
+
+.footer-navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 20px;
+}
+
+.footer-logo h2 {
+    color: #fff;
+    font-size: 27px;
+    font-weight: 700;
+    font-family: 'Space Mono';
+}
+
+.footer-nav_icons {
+    display: flex;
+    align-items: center;
+}
+
+.footer-nav_icons a {
+    color: #FCB72B;
+    width: 26px;
+    height: 26px;
+    cursor: pointer;
+}

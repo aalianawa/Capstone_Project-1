@@ -1,0 +1,752 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%; 
+    height: 100%;
+    overflow-x: hidden;
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.container {
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+    margin-right: auto !important;
+    margin-left: auto !important;
+}
+/* header {
+    background-color: rgba(255, 255, 255, 1);
+    width: 100%;
+    height: 96px;
+} */
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 20px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    margin-top: 22px !important;
+}
+
+.logo a {
+    color: rgba(73, 85, 103, 1);
+    font-size: 24px;
+    font-weight: 700;
+    font-family: 'Space Mono';
+    margin-right: 20px;
+    text-decoration: none;
+}
+
+.nav_links {
+    display: flex;
+}
+
+.nav_links li {
+    list-style: none !important;
+    margin-left: 15px;
+}
+
+.nav_links li a {
+    text-decoration: none;
+    color: rgba(147, 156, 170, 1);
+    font-size: 15px;
+    font-weight: 700;
+    font-family: 'Space Mono';
+}
+
+.nav-btn button {
+    width: 150px;
+    padding: 10px;
+    border: none;
+    background: rgba(252, 183, 43, 1);
+    color: rgba(255, 255, 255, 1);
+    font-size: 15px;
+    font-weight: 700;
+    font-family: 'Space Mono';
+    line-height: 25px;
+    margin-top: 22px !important;
+    cursor: pointer;
+}
+
+.nav-btn button:hover {
+    color: rgba(252, 183, 43, 1);
+    background: none;
+    border: 2px solid rgba(252, 183, 43, 1);
+}
+
+/* hero style */
+.about-hero {
+    background-image: url('../Assets/About.svg');
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 150px;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.about-hero h2 {
+    font-size: 56px;
+    font-weight: 700;
+    font-family: 'Space Mono';
+    color: rgba(255, 255, 255, 1);
+    letter-spacing: -2.5px;
+    line-height: 56px;
+    margin-left: 190px;
+}
+
+/* About-Apps style */
+.About-Apps {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 100px;
+}
+
+.App-detail h2 {
+    font-size: 48px;
+    font-weight: 700;
+    font-family: 'Space Mono';
+    color: rgba(73, 85, 103, 1);
+    letter-spacing: -2.14px;
+}
+
+.App-detail p {
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Lexend Deca';
+    line-height: 25px;
+    color: rgba(147, 156, 170, 1);
+    padding-top: 10px;
+}
+
+.App-img img {
+    width: 460px;
+    height: 450px;
+    border-radius: 50%;
+}
+
+
+/* About-Apps style */
+.Bitmap-Apps {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 100px;
+}
+
+.Bitmap-detail h2 {
+    font-size: 48px;
+    font-weight: 700;
+    font-family: 'Space Mono';
+    color: rgba(73, 85, 103, 1);
+    letter-spacing: -2.14px;
+}
+
+.Bitmap-detail p {
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Lexend Deca';
+    line-height: 25px;
+    color: rgba(147, 156, 170, 1);
+    padding-top: 10px;
+}
+
+/* Our-Values */
+.Values_Section {
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    padding: 100px;
+}
+
+.Values_Section h1 {
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+    font-family: 'Space Mono';
+    letter-spacing: -2.14px;
+    margin-bottom: 15px;
+    color: rgba(73, 85, 103, 1);
+}
+
+.card-container {
+    display: flex;
+    margin-top: 3rem !important;
+    justify-content: space-around !important;
+    align-items: center;
+    text-align: center;
+    row-gap: 3.5rem !important;
+}
+
+.card-article {
+    position: relative;
+    margin-left: 40px !important;
+}
+
+.card-data {
+    position: absolute;
+}
+
+.card-data img {
+    position: absolute;
+    bottom: -2rem !important;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    left: 120px !important;
+    right: 10px !important;
+}
+
+
+.card-article h3 {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 24px;
+    font-weight: 700;
+    font-family: 'Space Mono';
+    color: rgba(73, 85, 103, 1);
+}
+
+.card-article p {
+    text-align: center;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Lexend Deca';
+    line-height: 25px;
+    color: rgba(147, 156, 170, 1);
+}
+
+@media screen and (max-width: 340px) {
+    .Values_Section {
+        margin-inline: 1rem;
+    }
+
+    .card-data {
+        width: 250px;
+        padding: 1rem !important;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .card-container {
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 1.5rem;
+    }
+
+}
+
+@media screen and (max-width: 1120px) {
+    .Values_Section {
+        height: 100vh;
+    }
+
+    .card-container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+/* FAQ section */
+.faq_Section {
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.faq_Section h1 {
+    font-size: 48px;
+    font-weight: 700;
+    font-family: 'Space Mono' !important;
+    text-align: center;
+    letter-spacing: -2.14px;
+    color: rgba(73, 85, 103, 1);
+}
+
+.Faq-sec {
+    display: flex;
+    justify-content: space-around;
+    padding: 30px 100px;
+}
+
+.Faq-sec h2 {
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'Space Mono';
+    letter-spacing: -1.79px;
+    line-height: 48px;
+    color: rgba(73, 85, 103, 1);
+    margin-top: 20px;
+}
+#accordion {
+    width: 700px;
+}
+
+#accordion li {
+    list-style: none;
+    position: relative;
+    margin-top: 20px !important;
+    padding: 12px;
+    background: rgba(242, 245, 249, 1);
+    overflow: hidden;
+}
+
+#accordion li:hover {
+    background: rgba(255, 244, 223, 1);
+}
+
+#accordion li label {
+    padding: 10px !important;
+    display: flex;
+    font-weight: 700;
+    font-size: 24px;
+    font-family: 'Space Mono';
+    color: rgba(73, 85, 103, 1);
+    line-height: 28px;
+    align-items: center;
+    letter-spacing: -1.07px;
+    justify-content: space-between;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+#accordion li label span {
+    color: rgba(252, 183, 43, 1);
+    transform: rotate(90deg);
+    font-size: 20px;
+    font-weight: 700;
+    width: 10px;
+}
+
+#accordion input[type="radio"] {
+    display: none !important;
+}
+
+#accordion input[type="radio"]:checked+label+.faq-content {
+    max-height: 400px;
+    padding: 10px 0;
+}
+
+#accordion .faq-content {
+    padding: 0 10px !important;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Lexend Deca';
+    line-height: 25px;
+    color: rgba(73, 85, 103, 1);
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height 0.5s ease-out;
+}
+
+
+/* Footer style */
+.footer {
+    width: 100%;
+    background-image: url('../Assets/Mask.svg');
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 50px;
+}
+
+.footer-text h2 {
+    font-size: 48px;
+    font-weight: 700;
+    font-family: 'Space Mono';
+    color: rgba(255, 255, 255, 1);
+    letter-spacing: -2.14px;
+}
+
+.footer-buttons {
+    display: flex;
+}
+
+.footer-buttons button {
+    background: rgba(229, 236, 244, 1);
+    width: 150px;
+    padding: 8px;
+    margin-left: 10px;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-buttons button span {
+    font-size: 10px;
+    font-weight: 700;
+    font-family: 'Space Mono';
+    color: rgba(73, 85, 103, 1);
+    line-height: 14.81px;
+}
+
+.footer-buttons button h2 {
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Space Mono';
+    color: rgba(73, 85, 103, 1);
+    line-height: 24px;
+    letter-spacing: -0.89px;
+}
+
+/* footer nav style */
+
+
+footer {
+    background-color: rgba(51, 58, 68, 1);
+    width: 100%;
+    height: 105px;
+}
+
+.footer-navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px 0;
+}
+
+.footer-logo {
+    display: flex;
+    align-items: center;
+    margin-top: 22px !important;
+}
+
+.footer-logo h2 {
+    color: rgba(255, 255, 255, 1);
+    font-size: 27px;
+    font-weight: 700;
+    font-family: 'Space Mono';
+    margin-right: 20px;
+}
+
+.nav_links {
+    display: flex;
+}
+
+.nav_links li {
+    list-style: none !important;
+    margin-left: 15px;
+}
+
+.nav_links li a {
+    text-decoration: none;
+    color: rgba(147, 156, 170, 1);
+    font-size: 15px;
+    font-weight: 700;
+    font-family: 'Space Mono';
+}
+
+.footer-nav_icons {
+    display: flex;
+    align-items: center;
+    margin-top: 24px !important;
+}
+
+.footer-nav_icons a {
+    color: rgba(252, 183, 43, 1);
+    width: 26px;
+    height: 26px;
+    cursor: pointer;
+}
+
+
+
+/* location style */
+/* location style */
+.location-hero {
+    background-image: url('../Assets/Location.svg');
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 150px;
+    /* display: flex;  */
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.location-hero h2 {
+    font-size: 56px;
+    font-weight: 700;
+    font-family: 'Space Mono';
+    color: rgba(255, 255, 255, 1);
+    letter-spacing: -2.5px;
+    line-height: 56px;
+    margin-left: 190px;
+}
+
+/* map style */
+.map {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.map-img {
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.map-img img {
+    width: 100%;
+    max-width: 1350px;
+    padding: 100px;
+}
+
+/* Message us section style */
+.message {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 100px !important;
+}
+
+.message h2 {
+    font-size: 48px;
+    font-weight: 700;
+    font-family: 'Space Mono';
+    color: rgba(73, 85, 103, 1);
+    margin: 0 20px 0 0;
+    flex-shrink: 0;
+    line-height: 48px;
+    letter-spacing: -2.14px;
+    margin-left: 100px;
+}
+
+.message p {
+    font-size: 15px;
+    font-family: 'Lexend Deca';
+    font-weight: 400;
+    color: rgba(147, 156, 170, 1);
+    flex-grow: 1;
+    line-height: 25px;
+    margin-left: 30px;
+}
+
+.message button {
+    background: rgba(252, 183, 43, 1);
+    color: rgba(255, 255, 255, 1);
+    padding: 10px 20px;
+    border: none;
+    font-size: 15px;
+    font-weight: 700;
+    font-family: 'Space Mono';
+    cursor: pointer;
+    flex-shrink: 0;
+    margin-left: 10px;
+    margin-right: 100px;
+}
+
+.message button:hover {
+    background: none;
+    border: 2px solid rgba(230, 160, 40, 1);
+    color: rgba(230, 160, 40, 1);
+}
+
+
+
+/* Footer style */
+.location-footer {
+    width: 100%;
+    background-image: url('../Assets/Mask.svg');
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 70px;
+}
+
+.location-text h2 {
+    font-size: 48px;
+    font-weight: 700;
+    font-family: 'Space Mono';
+    color: rgba(255, 255, 255, 1);
+    letter-spacing: -2.14px;
+}
+
+.location-buttons {
+    display: flex;
+}
+
+.footer-buttons button {
+    background: rgba(229, 236, 244, 1);
+    width: 150px;
+    padding: 8px;
+    margin-left: 10px;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-buttons button span {
+    font-size: 10px;
+    font-weight: 700;
+    font-family: 'Space Mono';
+    color: rgba(73, 85, 103, 1);
+    line-height: 14.81px;
+}
+
+.footer-buttons button h2 {
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Space Mono';
+    color: rgba(73, 85, 103, 1);
+    line-height: 24px;
+    letter-spacing: -0.89px;
+}
+
+/* footer nav style */
+footer {
+    background-color: rgba(51, 58, 68, 1);
+    width: 100%;
+    height: 105px;
+}
+
+.footer-navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* padding: 20px 0; */
+}
+
+.footer-logo {
+    display: flex;
+    align-items: center;
+    margin-top: 22px !important;
+}
+
+.footer-logo h2 {
+    color: rgba(255, 255, 255, 1);
+    font-size: 27px;
+    font-weight: 700;
+    font-family: 'Space Mono';
+    margin-right: 20px;
+}
+
+.nav_links {
+    display: flex;
+}
+
+.nav_links li {
+    list-style: none !important;
+    margin-left: 15px;
+}
+
+.nav_links li a {
+    text-decoration: none;
+    color: rgba(147, 156, 170, 1);
+    font-size: 15px;
+    font-weight: 700;
+    font-family: 'Space Mono';
+}
+
+.footer-nav_icons {
+    display: flex;
+    align-items: center;
+    margin-top: 24px !important;
+}
+
+.footer-nav_icons a {
+    color: rgba(252, 183, 43, 1);
+    width: 26px;
+    height: 26px;
+    cursor: pointer;
+}
+
+/* Careers style */
+.App-detail button {
+    width: 150px;
+    padding: 10px;
+    border: none;
+    background: rgba(252, 183, 43, 1);
+    color: rgba(255, 255, 255, 1);
+    font-size: 15px;
+    font-weight: 700;
+    font-family: 'Space Mono';
+    line-height: 25px;
+    margin-top: 22px !important;
+    cursor: pointer;
+}
+
+.App-detail button:hover {
+    background: none;
+    color: rgba(252, 183, 43, 1);
+    border: 2px solid rgba(252, 183, 43, 1);
+}
+
+/* Skills style */
+.skills {
+    width: 100%;
+    padding: 100px;
+    align-items: center;
+}
+
+.skills_info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(242, 245, 249, 1);
+    padding: 30px;
+    text-align: left;
+    margin-top: 30px;
+}
+
+.skills_info h2 {
+    font-size: 24px;
+    font-weight: 700;
+    font-family: 'Space Mono';
+    color: rgba(73, 85, 103, 1);
+    flex-shrink: 0;
+    line-height: 48px;
+    letter-spacing: -2.14px;
+}
+
+.skills_info span {
+    font-size: 15px;
+    font-family: 'Lexend Deca';
+    font-weight: 400;
+    color: rgba(147, 156, 170, 1);
+    line-height: 25px;
+}
+
+.skills_info button {
+    width: 150px;
+    padding: 10px;
+    border: none;
+    background: rgba(252, 183, 43, 1);
+    color: rgba(255, 255, 255, 1);
+    font-size: 15px;
+    font-weight: 700;
+    font-family: 'Space Mono';
+    line-height: 25px;
+    margin-top: 22px !important;
+    cursor: pointer;
+}
+
+.skills_info button:hover {
+    background: none;
+    color: rgba(252, 183, 43, 1);
+    border: 2px solid rgba(252, 183, 43, 1);
+}
